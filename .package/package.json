@@ -1,0 +1,14 @@
+{
+  "title": "Archive",
+  "description": "A Mokuji component to create archives with sharing options.",
+  "type": "manual",
+  "dbUpdates": false,
+  "versions": [
+    {
+      "version": "0.0.1-alpha",
+      "date": "2013-06-05",
+      "description": "Started alpha development.",
+      "changes": []
+    }
+  ]
+}
