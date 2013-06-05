@@ -38,12 +38,12 @@ A Mokuji component to create archives with sharing options.
 ## Structure
 
 * Archive
-  - Owner ID
-  - Title
-  - Description
-  - Datetime created
-  - Datetime last modified (entry creation / modification also bumps this value)
-  - Archive settings
+  * Owner ID
+  * Title
+  * Description
+  * Datetime created
+  * Datetime last modified (entry creation / modification also bumps this value)
+  * Archive settings
     * Sharing options (public / logged in users / selective groups / private)
     * Allow sharing options to be overridden per entry
     * Allow sharing options per entry to exclude members/groups that normally would have access, or just add additional ones
@@ -51,29 +51,29 @@ A Mokuji component to create archives with sharing options.
     * Attachment limitations (size, amount, extensions)
     * Whether or not to actually delete items (deprecate vs delete)
     * Whether or not to archive versions (on modification)
-  - Archive entries
+  * Archive entries
     * Entry #1 (multilingual)
-      - Posted by user ID
-      - Associated with group ID (optional)
-      - Single language ID (when the entry has not been translated, used as meta-information)
-      - Title
-      - Description
-      - Full text
-      - Tags
-      - Image (optional)
-      - Datetime added
-      - Datetime last modified
-      - Sharing options (if allowed)
-      - Attachment #1 (optional)
+      * Posted by user ID
+      * Associated with group ID (optional)
+      * Single language ID (when the entry has not been translated, used as meta-information)
+      * Title
+      * Description
+      * Full text
+      * Tags
+      * Image (optional)
+      * Datetime added
+      * Datetime last modified
+      * Sharing options (if allowed)
+      * Attachment #1 (optional)
         * File ID
         * Language of the contents (ID / not applicable / unknown)
-      - Attachment #2 (optional)
-      - Attachment #... (optional)
-      - Attachment #n (optional)
+      * Attachment #2 (optional)
+      * Attachment #... (optional)
+      * Attachment #n (optional)
     * Entry #2 (multilingual)
     * Entry #... (multilingual)
     * Entry #n (multilingual)
 * Global settings (per site in multi-site setup)
-  - Whether or not to allow normal users to create archives
-  - Which archive settings can be overridden when normal users create one
-  - Default settings for new archives (or fixed values if they are configured not to be overridden)
+  * Whether or not to allow normal users to create archives
+  * Which archive settings can be overridden when normal users create one
+  * Default settings for new archives (or fixed values if they are configured not to be overridden)
