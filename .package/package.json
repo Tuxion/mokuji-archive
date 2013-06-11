@@ -2,8 +2,20 @@
   "title": "Archive",
   "description": "A Mokuji component to create archives with sharing options.",
   "type": "manual",
-  "dbUpdates": false,
+  "dbUpdates": true,
   "versions": [
+    {
+      "version": "0.0.3-alpha",
+      "date": "2013-06-11",
+      "description": "Added datastructures.",
+      "changes": []
+    },
+    {
+      "version": "0.0.2-alpha",
+      "date": "2013-06-11",
+      "description": "Created an installer and added basic functions to the archive manager.",
+      "changes": []
+    },
     {
       "version": "0.0.1-alpha",
       "date": "2013-06-05",

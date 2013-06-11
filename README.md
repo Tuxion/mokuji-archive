@@ -1,4 +1,4 @@
-# Component: `archive`, Version 0.0.1 Alpha
+# Component: `archive`, Version 0.0.3 Alpha
 
 A Mokuji component to create archives with sharing options.
 
@@ -15,12 +15,14 @@ A Mokuji component to create archives with sharing options.
 * Use single language mode for an entry (ask user to specify entry language as a required field)
 
 ### Should have (could be in 0.1.0-beta, required for 0.2.0-beta)
+* Attachment handling
 * Community component integration to specify which groups have access
 * Associate entries with a group
 * Entry level overrides for who has access
 * Setting whether or not an archive should delete or deprecate entries
 
 ### Could have (keep the option in mind, but not scheduled)
+* Tag handling
 * Multi-language support for input fields
 * Setting and functionality to allow normal users to create archives
 * Default settings for new archives
